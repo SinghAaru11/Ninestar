@@ -1,0 +1,627 @@
+:root {
+    --background-color: #ffffff;
+    --background-color-rgb: 255, 255, 255;
+    --default-color: #212529;
+    --default-color-rgb: 33, 37, 41;
+    --heading-color: #7a6960;
+    --heading-color-rgb: 122, 105, 96;
+    --accent-color: #eb5d1e;
+    --accent-color-rgb: 235, 93, 30;
+    --contrast-color: #ffffff;
+
+}
+
+
+
+
+.navbar-border {
+    box-shadow: 0px 5px 5px #e2e2e2;
+    background-color: #ffffff !important;
+}
+
+#all-item {
+    color: rgb(250, 124, 52) !important;
+}
+
+.nav-link:hover {
+    color: rgb(244, 140, 79) !important;
+}
+
+.nav-link active {
+    color: rgb(244, 140, 79) !important;
+}
+
+/* not working */
+
+.navbar {
+    background-color: rgb(243, 250, 250);
+}
+
+.navbar-brand {
+    color: grey;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+h4 {
+    color: grey;
+}
+
+h1 {
+    color: #7a6960;
+    font-weight: 700 !important;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* section first start*/
+.divider{
+    width: 50px;
+    height: 3px;
+    background-color: #eb5d1e;
+}
+.title {
+    display: inline-block;
+    position: relative;
+    top: -6px;
+    left: 42%;
+    text-align: -webkit-center;
+}
+.section-first {
+    margin-top: 85px;
+    width: 100%;
+    min-height: 70vh;
+    background-color: #eb5d1e08;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 100px 0px 70px 0px;
+}
+
+
+
+.play-icon {
+    color: #eb5d1e;
+    font-size: 30px;
+}
+
+.img-banner-common-section {
+
+    position: relative;
+    animation: mymove 5s ease-in-out infinite alternate-reverse both;
+
+}
+
+@keyframes mymove {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 200px;
+    }
+}
+
+.btn:hover {
+    background-color: rgb(244, 140, 79) ;
+    /* color: ghostwhite; */
+    font-weight: 500;
+}
+
+/* ???? this button hover is applicable on 5th section dropdown also,how to correct it ??/ */
+
+
+.btn {
+
+    color: var(--contrast-color);
+    background: var(--accent-color);
+    font-size: 14px;
+    padding: 8px 25px;
+    /* margin: 0 0 0 30px; */
+    border-radius: 50px;
+    transition: 0.3s;
+    border: none;
+}
+
+
+.section1-border {
+    box-shadow: -4px 3px 1px #eb5d1e7d;
+}
+
+
+/* section first end */
+
+
+
+
+/* section second start*/
+
+.section-second {
+    margin-top: 85px;
+    width: 100%;
+    min-height: 70vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 100px 0px 70px 0px;
+}
+
+.section-two-heading {
+    font-size: 26px;
+    font-weight: 700;
+    color: #7a6960;
+}
+
+.section-two-sub-heading {
+    font-size: 18px;
+    font-weight: 700;
+    color: #7a6960;
+}
+
+.section-second p {
+    font-size: 15px;
+}
+
+.section-two-icon {
+    height: 55px;
+    width: 55px;
+    background-color: aqua;
+    line-height: 68px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    background-color: #eb5d1e;
+
+}
+
+
+
+/* section second end */
+
+
+
+
+/* section third start*/
+
+.section-three {
+    margin-top: 85px;
+    width: 100%;
+    min-height: 70vh;
+    background-color: #eb5d1e08;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 100px 0px 70px 0px;
+}
+
+/* section 3 */
+
+.service-link h4 a {
+    color: grey;
+    font-weight: 100;
+}
+
+.service-link:hover {
+    color: rgb(238, 125, 60) !important;
+    font-weight: 400;
+}
+
+
+a {
+    color: grey;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.service-detail {
+    position: absolute;
+    top: 33%;
+}
+
+.service-icon {
+    position: absolute;
+  
+    top: 15%;
+   
+}
+
+.nav-item .nav-link {
+    color: grey;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#all-item {
+    color: rgb(250, 124, 52) !important;
+}
+
+/* notworking */
+
+
+.badge {
+    background-color: rgb(241, 103, 5) !important;
+}
+
+/* section third end */
+
+
+.member-info-content h4,
+.member-info-content span {
+    color: #ffffff;
+}
+
+
+/* section 4th start*/
+
+.section-four {
+
+    margin-top: 85px;
+    width: 100%;
+    min-height: 70vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 100px 0px 70px 0px;
+}
+
+.portfolio-info{
+position: absolute !important;
+bottom: 150px;
+}
+
+.portfolio-info:hover {
+    background-color: #212529;
+    opacity: 0.7;
+    transition: 0.1s;
+    width: 28.6%;
+    height: 43.5%;
+    color: white;
+    /* position: absolute; */
+    bottom: 69px;
+}
+.portfolio-content{
+    position: relative;
+}
+/* section 4th end */
+
+
+
+
+/* section 5th start*/
+.section-five {
+
+    margin-top: 85px;
+    width: 100%;
+    min-height: 70vh;
+    background-color:#eb5d1e08;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 100px 0px 70px 0px;
+}
+
+.Toggle-sect-five {
+    background-color: var(--contrast-color);
+    position: relative;
+    width: 100%;
+    padding: 18px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(var(--default-color-rgb), 0.15);
+    border-radius: 5px;
+    overflow: hidden;
+    color: #7a6960;
+    font-weight: 400;
+    font-size: 16px;
+    
+   
+    align-items: center;
+}
+
+
+
+/* section 5th end */
+
+
+
+
+
+
+
+
+/* section 6th start*/
+.section-six {
+
+    margin-top: 85px;
+    width: 100%;
+    min-height: 70vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 100px 0px 70px 0px;
+}
+
+
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container-img {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  height: auto;
+  /* padding: 20px; */
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+    position: absolute;
+    bottom: 0;
+    /* background: rgb(0, 0, 0); */
+    background: rgba(0, 0, 0, 0.5);
+    /* color: #f1f1f1; */
+    width: 92%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white !important;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container-img:hover .overlay {
+  opacity: 1;
+}
+.none{
+    display: none
+}
+#All{
+    display: block;
+}
+.overlay-icon{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    color: white !important;
+    transition: .5s ease;
+    display: flex;
+    flex-direction: column;
+
+}
+.container-img:hover .overlay-icon {
+    height: 258%;
+    width: 15%;
+    /* background-color: rgb(241, 103, 5) !important; */
+  }
+
+  .container-img .overlay-icon .fa-brands:hover {
+  
+    color: #eb5d1e;
+  }
+
+
+
+  .card:hover{
+    margin-top: -10px;
+    /* transition: 1s ease-out; */
+    /* transition: margin-top 2s; */
+    transition: all 0.5s ease-in-out;
+}
+
+/* section 6th end */
+
+
+
+
+
+
+
+/* section 7th start*/
+.section-seven {
+
+    margin-top: 85px;
+    width: 100%;
+    min-height: 70vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 100px 0px 70px 0px;
+}
+
+
+.contact-info {
+    box-shadow: 0px 0px 20px rgba(var(--default-color-rgb), 0.1);
+    padding: 30px;
+    border-top: 3px solid var(--accent-color);
+    border-bottom: 3px solid var(--accent-color);
+    height: 100%;
+}
+
+
+.contact-icon {
+    font-size: 20px;
+    color: var(--accent-color);
+    background: rgba(var(--accent-color-rgb), 0.08);
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    margin-right: 15px;
+}
+.contact-icon:hover {
+    color:#ffffff;
+    background-color: #eb5d1e;
+
+}
+
+.subscribe-input {
+    width: 61%;
+    line-height: 7px;
+    border-radius: 30px;
+    position: relative;
+    left: 19%;
+}
+.subscribe-btn{
+    position: absolute;
+    left: 69%;
+}
+/* section 7th end */
+
+
+
+/* section 8 starts */
+
+.section-eight {
+    background-color: #eb5d1e08;
+    padding: 74px 0px;
+}
+
+/* section 8 ends */
+
+
+
+
+
+
+
+
+
+/* footer */
+/* .footer-details{
+   
+        color: var(--default-color);
+        font-size: 24px;
+        font-weight: 400;
+        font-family: var(--heading-font);
+   
+} */
+
+.footer-list {
+    list-style: none !important;
+    padding-left: 0px;
+    margin-left: 0px;
+    color: #7a6960;
+
+}
+
+footer {
+
+    background-color: #ffffff;
+    font-size: 14px;
+    /* padding-bottom: 50px; */
+    position: relative;
+}
+
+.footer-links h6{
+    font-size: 16px;
+    font-weight: bold;
+    /* position: relative;
+    padding-bottom: 12px; */
+    color: #7a6960;
+
+}
+
+
+.social-icon-footer {
+    font-size: 20px;
+    color: #514e4e;
+    /* background: grey; */
+    border: 2px solid #9d9da4;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.social-icon-footer:hover{
+    background-color:#ffffff;
+    border: 2px solid#eb5d1e;
+    color: #eb5d1e;
+
+    
+}
+
+.credits{
+    color: #f08355;
+}
+
+.credits :hover{
+    color: #553eef !important;
+}
+/* hover is not working */
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+positioning Notes Imp
+
+.parent{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+}
+.child-first{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left:0;
+    color: blue;
+    background-color: rgb(222, 163, 208);
+}
+
+.child-second{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right:0;
+    color: blue;
+    background-color: rgb(156, 215, 114);
+} */
