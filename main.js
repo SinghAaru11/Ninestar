@@ -31,7 +31,7 @@ else if(name == 'Product'){
     books.style.display = 'none'
 
 }
-else if (name == 'Brand'){
+else if (name == 'Branding'){
     all.style.display = 'none';
     app.style.display = 'none';
     product.style.display = 'none';

@@ -243,10 +243,37 @@ a {
 /* notworking */
 
 
-.badge {
+
+
+/* Hover effect to enlarge text and badge */
+
+.badge:hover {
     background-color: rgb(241, 103, 5) !important;
 }
+ .portfolio-info .badge:hover {
+    background-color: transparent;
+    transform: scale(1.2); /* Scale up the badge */
+}
+.portfolio-info  i,
+.portfolio-info p {
+    font-size: 1.4rem; /* Enlarge the font size of icons and paragraph */
+}
+.badge:hover {
+    transform: scale(1.1);
+    position: absolute;
+    top: -90px;
+    left: 12px;
+}
 
+
+.badge:hover span {
+    font-size: 1.9em; /* Enlarge the font size of span */
+}
+
+.badge:hover i,
+.badge:hover p {
+    font-size: 1.6em; /* Enlarge the font size of icons and paragraph */
+}
 /* section third end */
 
 
@@ -270,26 +297,73 @@ a {
     padding: 100px 0px 70px 0px;
 }
 
-.portfolio-info{
-position: absolute !important;
-bottom: 150px;
+.portfolio-info {
+    position: absolute !important;
+    bottom: 71px;
 }
-
 .portfolio-info:hover {
     background-color: #212529;
-    opacity: 0.7;
+    opacity: 0.9;
     transition: 0.1s;
-    width: 28.6%;
-    height: 43.5%;
+    width: 27.4%;
+    height: 47.5%;
     color: white;
     /* position: absolute; */
-    bottom: 69px;
+    bottom: 66px;
+    /* top: 276px; */
 }
 .portfolio-content{
     position: relative;
 }
 /* section 4th end */
 
+
+/* Mobile styles (up to 767px) */
+@media (max-width: 767px) {
+    /* .portfolio-info:hover {
+        width: 90%;
+        height: auto;
+        padding: 10px;
+        bottom: 20px;
+        text-align: center;
+    } */
+    .portfolio-info:hover {
+        width: 83%;
+        height: 13%;
+        bottom: 51px;
+    }
+}
+
+/* Tablet styles (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .portfolio-info:hover {
+        /* width: 80%; */
+        /* height: auto; */
+        padding: 15px;
+        bottom: 51px;
+        text-align: center;
+    }
+    .portfolio-info:hover {
+        width: 83%;
+        height: 13%;
+        bottom: 51px;
+    }
+}
+
+/* Desktop styles (992px and above) */
+@media (min-width: 992px) {
+    .portfolio-info:hover {
+        width: 83%;
+        height: 13%;
+    }
+}
+@media (max-width: 768px) {
+    .portfolio-info:hover {
+        width: 83%;
+        height: 9%;
+        bottom: 51px;
+    }
+}
 
 
 
@@ -575,53 +649,216 @@ footer {
 .credits :hover{
     color: #553eef !important;
 }
-/* hover is not working */
-/* footer */
+
+
+/* mobile responsive */
+
+/* navbar */
+
+@media (max-width: 768px) {
+    .navbar {
+        background-color: rgb(243, 250, 250);
+    }
+
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+    }
+}
+
+/*Section Titles and Text  */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .section-first,
+    .section-second,
+    .section-three,
+    .section-four,
+    .section-five,
+    .section-six,
+    .section-seven {
+        padding: 50px 20px;
+    }
+}
+
+
+/* Buttons */
+
+@media (max-width: 768px) {
+    .btn {
+        font-size: 12px;
+        padding: 6px 20px;
+    }
+}
+
+
+/* Section Layout */
+
+@media (max-width: 768px) {
+    .section-first,
+    .section-second,
+    .section-three,
+    .section-four,
+    .section-five,
+    .section-six,
+    .section-seven {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .divider {
+        left: 0;
+        margin: 0 auto;
+    }
+
+    .title {
+        left: 0;
+        text-align: center;
+    }
+}
+
+
+/*  Images */
+
+@media (max-width: 768px) {
+    .image {
+        width: 100%;
+        height: auto;
+    }
+
+    .container-img {
+        max-width: 100%;
+    }
+}
+
+
+
+/*  Footer */
+
+@media (max-width: 768px) {
+    .footer-links h6 {
+        font-size: 14px;
+    }
+
+    .social-icon-footer {
+        width: 36px;
+        height: 36px;
+        font-size: 18px;
+    }
+}
+
+
+/* General Responsive Design */
+
+@media (max-width: 768px) {
+    .section {
+        padding: 50px 20px;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .divider {
+        width: 30px;
+        height: 2px;
+    }
+}
+
+
+
+/*  */
+
+
+/* Styles for smaller screens */
+@media (max-width: 768px) {
+    .img-banner-one {
+        animation: none;
+        top: 37px !important; /* Reset top position if needed */
+        width: 100%;
+        height: auto;
+    }
+}
 
 
 
 
 
+@media (max-width: 768px) {
+    .img-banner-two {
+        animation: none;
+        top: -41px !important; /* Reset top position if needed */
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+/* all section */
 
 
 
 
 
+/* map */
 
-
-
-
-
-
-
-
-
-
-
-
-/* 
-positioning Notes Imp
-
-.parent{
+.map-container {
     position: relative;
-    width: 300px;
-    height: 300px;
-    background-color: aqua;
-}
-.child-first{
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    left:0;
-    color: blue;
-    background-color: rgb(222, 163, 208);
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #f0f0f0;
+    margin-top: 20px;
 }
 
-.child-second{
-    width: 100px;
-    height: 100px;
+.map-container iframe {
     position: absolute;
-    right:0;
-    color: blue;
-    background-color: rgb(156, 215, 114);
-} */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 767px) {
+    .map-container {
+        padding-bottom: 75%; /* Adjust aspect ratio for small screens if needed */
+    }
+
+    .contact-info {
+        padding: 20px;
+    }
+
+    .contact-icon {
+        font-size: 1.5rem;
+    }
+
+    .section-two-sub-heading {
+        font-size: 1.2rem;
+    }
+}
