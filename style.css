@@ -287,72 +287,46 @@ a {
 }
 
 .portfolio-info {
-    position: absolute !important;
+    position: absolute; /* Keep the position absolute */
     bottom: 71px;
+    width: 27.3%; /* Initial width */
+    height: 47.5%; /* Initial height */
+    background-color: transparent; /* Initial background color */
+    transition: background-color 0.3s, width 0.3s, height 0.3s; /* Smooth transitions */
+    color: #7a6960; /* Initial text color */
+    text-align: center; /* Center align text content */
+    padding: 18px; /* Adjust padding */
+    overflow: hidden; /* Hide overflow content */
 }
+
 .portfolio-info:hover {
     background-color: #212529;
     opacity: 0.9;
-    transition: 0.1s;
     width: 27.4%;
-    height: 47.5%;
+    height: 47%;
     color: white;
-    /* position: absolute; */
-    bottom: 66px;
-    /* top: 276px; */
 }
+
+/* Media query for small devices */
+@media (max-width: 768px) {
+    .portfolio-info {
+        display: none; /* Hide the element on small screens */
+    }
+}
+
+
+
+
+
+
 .portfolio-content{
     position: relative;
 }
+
+
+
 /* section 4th end */
 
-
-/* Mobile styles (up to 767px) */
-@media (max-width: 767px) {
-    /* .portfolio-info:hover {
-        width: 90%;
-        height: auto;
-        padding: 10px;
-        bottom: 20px;
-        text-align: center;
-    } */
-    .portfolio-info:hover {
-        width: 83%;
-        height: 13%;
-        bottom: 51px;
-    }
-}
-
-/* Tablet styles (768px to 991px) */
-@media (min-width: 768px) and (max-width: 991px) {
-    .portfolio-info:hover {
-        /* width: 80%; */
-        /* height: auto; */
-        padding: 15px;
-        bottom: 51px;
-        text-align: center;
-    }
-    .portfolio-info:hover {
-        width: 83%;
-        height: 13%;
-        bottom: 51px;
-    }
-}
-
-/* Desktop styles (992px and above) */
-@media (min-width: 992px) {
-    .portfolio-info:hover {
-        width: 83%;
-        height: 13%;
-    }
-}
-@media (max-width: 768px) {
-    .portfolio-info:hover {
-        width: 83%;
-        height: 9%;
-        bottom: 51px;
-    }
-}
 
 
 
@@ -387,7 +361,7 @@ a {
 .dropdown-toggle {
     color: ghostwhite !important;
     background: var(--accent-color);
-    font-size: 16px !important;
+    font-size: 9px !important;
     padding: 6px;
     border-radius: 50px;
     /* transition: 12.9s; */
@@ -447,11 +421,7 @@ a {
         text-align: -webkit-center;
      
     }
-    .dropdown-toggle {
-    
-        font-size: 9px;
-       
-    }
+   
     .dropdown-menu {
         /* color: var(--contrast-color); */
         /* background: #696c6df5; */
