@@ -361,8 +361,8 @@ a {
 .dropdown-toggle {
     color: ghostwhite !important;
     background: var(--accent-color);
-    font-size: 9px !important;
-    padding: 6px;
+    font-size: 16px !important;
+    padding: 7px;
     border-radius: 50px;
     /* transition: 12.9s; */
     /* border: none; */
